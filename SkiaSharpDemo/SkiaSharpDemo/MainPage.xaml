@@ -6,8 +6,8 @@
              x:Class="SkiaSharpDemo.MainPage"
              Title="SkiaSharp">
 
-  <Grid>
-    <views:SKCanvasView PaintSurface="OnPainting" />
-  </Grid>
+    <Grid>
+        <views:SKCanvasView PaintSurface="OnPainting" />
+    </Grid>
 
 </ContentPage>
