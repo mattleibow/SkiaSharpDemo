@@ -117,15 +117,15 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SkiaSharp">
-      <HintPath>..\..\packages\SkiaSharp.1.57.1\lib\XamariniOS\SkiaSharp.dll</HintPath>
+      <HintPath>..\..\packages\SkiaSharp.1.58.0\lib\XamariniOS\SkiaSharp.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="SkiaSharp.Views.Forms">
-      <HintPath>..\..\packages\SkiaSharp.Views.Forms.1.57.1\lib\XamariniOS\SkiaSharp.Views.Forms.dll</HintPath>
+      <HintPath>..\..\packages\SkiaSharp.Views.Forms.1.58.0\lib\XamariniOS\SkiaSharp.Views.Forms.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="SkiaSharp.Views.iOS">
-      <HintPath>..\..\packages\SkiaSharp.Views.1.57.1\lib\XamariniOS\SkiaSharp.Views.iOS.dll</HintPath>
+      <HintPath>..\..\packages\SkiaSharp.Views.1.58.0\lib\XamariniOS\SkiaSharp.Views.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -151,7 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SkiaSharpDemo\SkiaSharpDemo.csproj">
-      <Project>{e692c20c-8daa-4883-ba28-77efb465f88c}</Project>
+      <Project>{813F582A-A2EC-4C1C-8A32-50AB8D4EF0BD}</Project>
       <Name>SkiaSharpDemo</Name>
     </ProjectReference>
   </ItemGroup>

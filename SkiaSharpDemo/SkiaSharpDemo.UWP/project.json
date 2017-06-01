@@ -1,9 +1,9 @@
 ﻿{
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
-    "SkiaSharp": "1.57.1",
-    "SkiaSharp.Views": "1.57.1",
-    "SkiaSharp.Views.Forms": "1.57.1",
+    "SkiaSharp": "1.58.0",
+    "SkiaSharp.Views": "1.58.0",
+    "SkiaSharp.Views.Forms": "1.58.0",
     "Xamarin.Forms": "2.3.4.247"
   },
   "frameworks": {
