@@ -7,7 +7,7 @@
              Title="SkiaSharp">
 
     <Grid>
-        <views:SKCanvasView PaintSurface="OnPainting" />
+        <views:SKCanvasView PaintSurface="OnPainting" EnableTouchEvents="True" Touch="OnTouch" />
     </Grid>
 
 </ContentPage>
