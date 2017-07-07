@@ -1,8 +1,8 @@
 ﻿{
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.3",
-    "SkiaSharp": "1.58.0",
-    "SkiaSharp.Views": "1.58.0"
+    "SkiaSharp": "1.58.1",
+    "SkiaSharp.Views": "1.58.1"
   },
   "frameworks": {
     "uap10.0": {}
