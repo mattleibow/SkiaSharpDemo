@@ -62,12 +62,6 @@
     <MtouchDebug>true</MtouchDebug>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SkiaSharp">
-      <HintPath>..\..\packages\SkiaSharp.1.58.1\lib\XamariniOS\SkiaSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="SkiaSharp.Views.iOS">
-      <HintPath>..\..\packages\SkiaSharp.Views.1.58.1\lib\XamariniOS\SkiaSharp.Views.iOS.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -137,7 +131,9 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
-    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp.Views" Version="1.58.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />

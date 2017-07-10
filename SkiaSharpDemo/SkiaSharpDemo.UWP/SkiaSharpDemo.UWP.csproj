@@ -90,7 +90,11 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <None Include="project.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="5.3.3" />
+    <PackageReference Include="Xamarin.Forms" Version="2.3.5.256-pre6" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.58.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">

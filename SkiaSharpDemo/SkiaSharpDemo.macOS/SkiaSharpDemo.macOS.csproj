@@ -52,27 +52,6 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.Mac" />
-    <Reference Include="Xamarin.Forms.Core">
-      <HintPath>..\..\packages\Xamarin.Forms.2.3.5.256-pre6\lib\Xamarin.Mac\Xamarin.Forms.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Forms.Platform">
-      <HintPath>..\..\packages\Xamarin.Forms.2.3.5.256-pre6\lib\Xamarin.Mac\Xamarin.Forms.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Forms.Platform.macOS">
-      <HintPath>..\..\packages\Xamarin.Forms.2.3.5.256-pre6\lib\Xamarin.Mac\Xamarin.Forms.Platform.macOS.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Forms.Xaml">
-      <HintPath>..\..\packages\Xamarin.Forms.2.3.5.256-pre6\lib\Xamarin.Mac\Xamarin.Forms.Xaml.dll</HintPath>
-    </Reference>
-    <Reference Include="SkiaSharp">
-      <HintPath>..\..\packages\SkiaSharp.1.58.1\lib\XamarinMac\SkiaSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="SkiaSharp.Views.Mac">
-      <HintPath>..\..\packages\SkiaSharp.Views.1.58.1\lib\XamarinMac\SkiaSharp.Views.Mac.dll</HintPath>
-    </Reference>
-    <Reference Include="SkiaSharp.Views.Forms">
-      <HintPath>..\..\packages\SkiaSharp.Views.Forms.1.58.1\lib\XamarinMac\SkiaSharp.Views.Forms.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -94,7 +73,10 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
-    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="2.3.5.256-pre6" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.58.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -107,5 +89,4 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
-  <Import Project="..\..\packages\Xamarin.Forms.2.3.5.256-pre6\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.5.256-pre6\build\netstandard1.0\Xamarin.Forms.targets')" />
 </Project>

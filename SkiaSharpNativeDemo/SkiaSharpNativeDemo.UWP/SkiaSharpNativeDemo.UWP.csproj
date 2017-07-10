@@ -90,7 +90,10 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <None Include="project.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="5.3.3" />
+    <PackageReference Include="SkiaSharp.Views" Version="1.58.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
