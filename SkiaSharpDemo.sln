@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiaSharpDemo", "SkiaSharpDemo\SkiaSharpDemo\SkiaSharpDemo.csproj", "{813F582A-A2EC-4C1C-8A32-50AB8D4EF0BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiaSharpDemo", "SkiaSharpDemo\SkiaSharpDemo\SkiaSharpDemo.csproj", "{813F582A-A2EC-4C1C-8A32-50AB8D4EF0BD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiaSharpDemo.Droid", "SkiaSharpDemo\SkiaSharpDemo.Droid\SkiaSharpDemo.Droid.csproj", "{9B960D09-426D-4D5A-90AC-8971D255E48F}"
 EndProject
