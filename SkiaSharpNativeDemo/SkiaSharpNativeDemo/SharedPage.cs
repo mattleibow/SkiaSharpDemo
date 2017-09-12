@@ -5,6 +5,8 @@ using SkiaSharp.Views.UWP;
 using SkiaSharp.Views.iOS;
 #elif __ANDROID__
 using SkiaSharp.Views.Android;
+#elif __MACOS__
+using SkiaSharp.Views.Mac;
 #endif
 
 namespace SkiaSharpNativeDemo
