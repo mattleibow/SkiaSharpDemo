@@ -15,12 +15,7 @@
     <OutputPath>bin\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.4.0.269-pre2" />
-    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.59.1" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="**\*.xaml" />
-    <Compile Update="**\*.xaml.cs" DependentUpon="%(Filename)" />
-    <EmbeddedResource Include="**\*.xaml" SubType="Designer" Generator="MSBuild:UpdateDesignTimeXaml" />
+    <PackageReference Include="Xamarin.Forms" Version="2.5.0.121934" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.59.2" />
   </ItemGroup>
 </Project>

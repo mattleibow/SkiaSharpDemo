@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.27130.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiaSharpNativeDemo.Android", "SkiaSharpNativeDemo\SkiaSharpNativeDemo.Android\SkiaSharpNativeDemo.Android.csproj", "{5687FF8F-5AA5-4D81-8EF1-8D4B802B4F42}"
 EndProject
@@ -17,6 +17,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SkiaSharpNativeDemo\SkiaSharpNativeDemo\SkiaSharpNativeDemo.projitems*{4d50c931-1c10-40f9-97e7-7eb4106d2e1a}*SharedItemsImports = 4
 		SkiaSharpNativeDemo\SkiaSharpNativeDemo\SkiaSharpNativeDemo.projitems*{5687ff8f-5aa5-4d81-8ef1-8d4b802b4f42}*SharedItemsImports = 4
+		SkiaSharpNativeDemo\SkiaSharpNativeDemo\SkiaSharpNativeDemo.projitems*{85a4ebf0-5062-4228-af55-be2ba9bd3f72}*SharedItemsImports = 4
 		SkiaSharpNativeDemo\SkiaSharpNativeDemo\SkiaSharpNativeDemo.projitems*{85f66a44-9ba5-4ade-8c94-5975e96c3e3d}*SharedItemsImports = 4
 		SkiaSharpNativeDemo\SkiaSharpNativeDemo\SkiaSharpNativeDemo.projitems*{d458d1b9-cc4a-4fb0-99f5-ef569e165250}*SharedItemsImports = 13
 	EndGlobalSection
@@ -158,5 +159,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {098592AB-5C78-48DF-8EB4-8394BF49A9D8}
 	EndGlobalSection
 EndGlobal
