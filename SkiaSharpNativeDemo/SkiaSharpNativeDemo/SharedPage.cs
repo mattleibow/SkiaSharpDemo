@@ -7,6 +7,8 @@ using SkiaSharp.Views.iOS;
 using SkiaSharp.Views.Android;
 #elif __MACOS__
 using SkiaSharp.Views.Mac;
+#elif __WPF__
+using SkiaSharp.Views.Desktop;
 #endif
 
 namespace SkiaSharpNativeDemo

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.0
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiaSharpNativeDemo.Android", "SkiaSharpNativeDemo\SkiaSharpNativeDemo.Android\SkiaSharpNativeDemo.Android.csproj", "{5687FF8F-5AA5-4D81-8EF1-8D4B802B4F42}"
 EndProject
@@ -13,8 +13,11 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SkiaSharpNativeDemo", "Skia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiaSharpNativeDemo.macOS", "SkiaSharpNativeDemo\SkiaSharpNativeDemo.macOS\SkiaSharpNativeDemo.macOS.csproj", "{85A4EBF0-5062-4228-AF55-BE2BA9BD3F72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiaSharpNativeDemo.WPF", "SkiaSharpNativeDemo\SkiaSharpNativeDemo.WPF\SkiaSharpNativeDemo.WPF.csproj", "{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SkiaSharpNativeDemo\SkiaSharpNativeDemo\SkiaSharpNativeDemo.projitems*{2715855b-15b5-40e9-a2e8-07ead07ce8f7}*SharedItemsImports = 4
 		SkiaSharpNativeDemo\SkiaSharpNativeDemo\SkiaSharpNativeDemo.projitems*{4d50c931-1c10-40f9-97e7-7eb4106d2e1a}*SharedItemsImports = 4
 		SkiaSharpNativeDemo\SkiaSharpNativeDemo\SkiaSharpNativeDemo.projitems*{5687ff8f-5aa5-4d81-8ef1-8d4b802b4f42}*SharedItemsImports = 4
 		SkiaSharpNativeDemo\SkiaSharpNativeDemo\SkiaSharpNativeDemo.projitems*{85a4ebf0-5062-4228-af55-be2ba9bd3f72}*SharedItemsImports = 4
@@ -156,6 +159,30 @@ Global
 		{85A4EBF0-5062-4228-AF55-BE2BA9BD3F72}.Release|x64.Build.0 = Release|Any CPU
 		{85A4EBF0-5062-4228-AF55-BE2BA9BD3F72}.Release|x86.ActiveCfg = Release|Any CPU
 		{85A4EBF0-5062-4228-AF55-BE2BA9BD3F72}.Release|x86.Build.0 = Release|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Debug|ARM.Build.0 = Debug|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Debug|x64.Build.0 = Debug|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Debug|x86.Build.0 = Debug|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Release|ARM.ActiveCfg = Release|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Release|ARM.Build.0 = Release|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Release|iPhone.Build.0 = Release|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Release|x64.ActiveCfg = Release|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Release|x64.Build.0 = Release|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Release|x86.ActiveCfg = Release|Any CPU
+		{2715855B-15B5-40E9-A2E8-07EAD07CE8F7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
