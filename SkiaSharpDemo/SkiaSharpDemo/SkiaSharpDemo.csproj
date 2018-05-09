@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFramework>netstandard1.4</TargetFramework>
     <OutputTypeEx>library</OutputTypeEx>
     <RootNamespace>SkiaSharpDemo</RootNamespace>
     <AssemblyName>SkiaSharpDemo</AssemblyName>
@@ -15,7 +15,7 @@
     <OutputPath>bin\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.5.0.121934" />
-    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.59.3" />
+    <PackageReference Include="Xamarin.Forms" Version="2.5.1.527436" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.60.0" />
   </ItemGroup>
 </Project>
