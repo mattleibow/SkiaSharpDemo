@@ -126,12 +126,13 @@ namespace SkiaSharpDemo
 					break;
 				case SKTouchAction.Moved:
 					// the stroke, while pressed
-					if (e.InContact)
-						temporaryPaths[e.Id].LineTo(e.Location);
+					if (e.InContact && temporaryPaths.TryGetValue(e.Id, out var moving))
+						moving.LineTo(e.Location);
 					break;
 				case SKTouchAction.Released:
 					// end of a stroke
-					paths.Add(temporaryPaths[e.Id]);
+					if (temporaryPaths.TryGetValue(e.Id, out var releasing))
+						paths.Add(releasing);
 					temporaryPaths.Remove(e.Id);
 					break;
 				case SKTouchAction.Cancelled:
@@ -140,11 +141,14 @@ namespace SkiaSharpDemo
 					break;
 			}
 
-			// we have handled these events
-			e.Handled = true;
+			if (e.InContact)
+			{
+				// we have handled these events
+				e.Handled = true;
 
-			// update the UI
-			((SKCanvasView)sender).InvalidateSurface();
+				// update the UI
+				((SKCanvasView)sender).InvalidateSurface();
+			}
 		}
 	}
 }
