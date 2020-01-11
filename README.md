@@ -19,15 +19,15 @@ This is a Xamarin.Forms sample app. It draws the image onto a Xamarin.Forms
 
 ## SkiaSharpConsoleDemo
 
-This is a .NET console sample app. It draws the image in memory and then 
+This is a .NET console sample app. It draws the image in memory and then
 saves the file to `output.png`.
 
 ## SkiaSharpNativeDemo
 
-This is a set of Xamarin.Android, Xamarin.iOS and UWP sample apps. 
+This is a set of Xamarin.Android, Xamarin.iOS and UWP sample apps.
 
-They each draw the image onto a platform-speciific view (`SKCanvasView` for iOS 
+They each draw the image onto a platform-specific view (`SKCanvasView` for iOS
 and Android or `SKXamlCanvas` for UWP).
 
-Each platform uses their specific UI designers (AXML for Android, 
+Each platform uses their specific UI designers (AXML for Android,
 storyboards for iOS and XAML for UWP).
