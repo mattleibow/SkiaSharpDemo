@@ -12,9 +12,6 @@ how to do a few tasks using SkiaSharp:
  * Draw text
 
 
-<img width="357" height="357" alt="Final Drawing" src="https://s3.amazonaws.com/blog.xamarin.com/wp-content/uploads/2017/01/26223214/circle-cross-text-cropped.png">
-
-
 ## SkiaSharpDemo
 
 This is a Xamarin.Forms sample app. It draws the image onto a Xamarin.Forms
