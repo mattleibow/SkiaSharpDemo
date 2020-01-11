@@ -27,15 +27,19 @@
     <IncludeMonoRuntime>false</IncludeMonoRuntime>
     <UseSGen>true</UseSGen>
     <UseRefCounting>true</UseRefCounting>
-    <HttpClientHandler></HttpClientHandler>
-    <LinkMode></LinkMode>
-    <XamMacArch></XamMacArch>
+    <HttpClientHandler>
+    </HttpClientHandler>
+    <LinkMode>
+    </LinkMode>
+    <XamMacArch>
+    </XamMacArch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
-    <DefineConstants></DefineConstants>
+    <DefineConstants>
+    </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <EnableCodeSigning>false</EnableCodeSigning>
@@ -45,8 +49,10 @@
     <UseSGen>true</UseSGen>
     <UseRefCounting>true</UseRefCounting>
     <LinkMode>SdkOnly</LinkMode>
-    <HttpClientHandler></HttpClientHandler>
-    <XamMacArch></XamMacArch>
+    <HttpClientHandler>
+    </HttpClientHandler>
+    <XamMacArch>
+    </XamMacArch>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,8 +60,8 @@
     <Reference Include="Xamarin.Mac" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.3.0.991211" />
-    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.1-rc.170" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991477" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.2-preview.17" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SkiaSharpDemo\SkiaSharpDemo.csproj">

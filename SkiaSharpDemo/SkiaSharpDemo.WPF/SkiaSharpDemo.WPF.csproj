@@ -51,10 +51,10 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.3.0.991211" />
-    <PackageReference Include="Xamarin.Forms.Platform.WPF" Version="4.3.0.991211" />
-    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.1-rc.170" />
-    <PackageReference Include="SkiaSharp.Views.Forms.WPF" Version="1.68.1-rc.170" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991477" />
+    <PackageReference Include="Xamarin.Forms.Platform.WPF" Version="4.4.0.991477" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.2-preview.17" />
+    <PackageReference Include="SkiaSharp.Views.Forms.WPF" Version="1.68.2-preview.17" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SkiaSharpDemo\SkiaSharpDemo.csproj">
