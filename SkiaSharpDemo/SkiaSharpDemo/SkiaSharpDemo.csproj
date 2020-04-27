@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991477" />
-    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.2-preview.17" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.657" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.2-preview.60" />
   </ItemGroup>
 
 </Project>

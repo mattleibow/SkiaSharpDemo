@@ -68,7 +68,7 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="SkiaSharp.Views" Version="1.60.0" />
+    <PackageReference Include="SkiaSharp.Views" Version="1.68.2-preview.60" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
